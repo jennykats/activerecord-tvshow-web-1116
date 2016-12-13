@@ -1,6 +1,9 @@
 require "bundler/setup"
 require 'yaml'
 require 'active_record'
+require 'require_all'
+require_all 'app'
+require_all 'db'
 
 Bundler.require
 
